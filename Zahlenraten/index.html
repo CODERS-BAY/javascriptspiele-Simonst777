@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="css/style.css" rel="stylesheet">
+        <title>Zahlenraten</title>
+    </head>
+
+    <body>
+        <div id="counter">
+            <input id="counterValue" type="number" placeholder="Wie oft wollen Sie spielen?" > 
+                <div id="saveNumber" class="style" onclick="saveCounter()">LOS!</div>
+        </div>
+
+        <div id="howMuch">
+            <input id="howMuchValue" type="number" placeholder="Wie hoch soll die Zahl maximal sein?">
+        </div>
+
+
+        <div id="guessing">
+            <input id="guessingNumber" type="number" placeholder="Gib eine Zahl ein!">
+                <div id="play" class="style" onclick="play()">Play</div>
+        </div>
+
+        <div id="tooMuch" class="style">Zu viel!</div>
+        <div id="notEnough" class="style">Zu wenig!</div>
+        
+        <div id="won" class="style">Gewonnen!</div>
+        <div id="gameOver" class="style">Game Over!</div>
+
+        <div id="playAgain" class="style" onclick="playAgainFunc()">Play Again?</div>
+
+
+
+        <script src="js/jQuery.js" type="text/Javascript"></script>
+        <script src="js/script.js" type="text/Javascript"></script>
+    </body>
+</html>
