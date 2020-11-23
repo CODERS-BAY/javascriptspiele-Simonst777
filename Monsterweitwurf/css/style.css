@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+#entfernungMonster {
+    background-color: #df57bd;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 10px;
+    padding: 10px;
+}
+
+#planets {
+    background-color: #9499d4;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto;
+    padding: 5px;
+}
+
+#input {
+    background-color: khaki;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+#schießen{
+    display: flex;
+    justify-content: center;
+}
+
+#result {
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
