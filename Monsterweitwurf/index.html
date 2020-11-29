@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Handyweitwurf</title>
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/all.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <div id="entfernungMonster" onclick="calculateMonsterdistance()">Entfernung zum Monster(hier klicken)</div>
+
+        
+
+        <select id="planets" >
+            <option  value="9.81">Erde</option>
+            <option value="1.62">Mond</option>
+            <option value="3.96">Mars</option>
+            <option value="24.79">Jupiter</option>
+        </select>
+
+        <div id="input">
+            <input type="number" id="winkel" name="winkel" placeholder="gib einen Winkel zwischen 1-89 ein"/>
+            <input type="number" id="kraft" name="kraft" placeholder="gib die Kraft ein"/>
+        </div>
+
+        <div id="schießen" onclick="shoot()">Schießen!</div>
+
+        <div id="result"></div>
+
+
+
+
+        <script src="js/script.js" type="text/Javascript"></script>
+    </body>
+</html>

@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    align-items: center;
+    background-image: url(../imageMen.png);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+    flex-direction: column-reverse;
+}
+#guessing {
+    display: none;
+}
+#tooMuch {
+    display: none;
+}
+#notEnough {
+    display: none;
+}
+#won {
+    display: none;
+}
+#gameOver {
+    display: none;
+}
+#playAgain {
+    display: none;
+}
+
+#counter {
+    box-shadow: 1px 1px 10px rgb(107, 233, 201);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(120, 180, 236);
+    width: 50vh;
+}
+#howMuch {
+    box-shadow: 1px 1px 10px rgb(3, 202, 20);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(220, 241, 171);
+    width: 50vh;
+
+}
+.style {
+    background-color: #498;
+    box-shadow: 1px 1px 10px #111;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+#counterValue {
+    width: auto;
+    width: 220px;
+    padding: inherit;
+    font-family: cursive;
+    border-radius: 3px;
+  
+}
+#howMuchValue {
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    font-family: cursive;
+    border-radius: 3px;
+}
+#guessingNumber {
+    padding: 10px;
+    margin: 10px;
+    background-color: cornsilk;
+    box-shadow: 1px 1px 10px #122;
+    border-radius: 5px;
+    font-family: cursive;
+}
+#saveNumber:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+#play:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+#playAgain:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+#won {
+    background-color: rgb(245, 229, 9);
+    font-family: cursive;
+    font-size: larger;
+}
+#gameOver {
+    background-color: rgb(255, 0, 0);
+}
